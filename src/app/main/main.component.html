@@ -1,0 +1,9 @@
+<section class="main-list">
+    <div class="main-list-card" *ngFor="let books of books">
+        
+        <a [routerLink]="'/main/' + books.id" class="main-list-link">
+            <img [src]="books.image">
+            <h2 class="main-title">{{books.title}}</h2>
+        </a>
+    </div>
+</section>

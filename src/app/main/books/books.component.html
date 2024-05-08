@@ -1,0 +1,10 @@
+<section class="book-container">
+    <div class="image-container">
+        <img [src]="books?.image">
+    </div>
+    <div class="book-description-container">
+        <h2 class="book-title">{{books?.title}}</h2>
+        <p class="book-description">{{books?.description}}</p>
+        <a [href]="books?.pdf" target="_self" download>Download</a>
+    </div>
+</section>

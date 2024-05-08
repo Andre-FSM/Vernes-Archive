@@ -1,0 +1,36 @@
+footer {
+    background-color: hsl(0, 0%, 20%);        
+    color: white;
+    font-size: 18px;
+    height: fit-content;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+    font-weight: bold;
+}
+
+.copyright {
+    padding-right: 25px;
+    padding-top: 5px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 10px 0;
+    display: flex;
+}
+
+footer a {
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
